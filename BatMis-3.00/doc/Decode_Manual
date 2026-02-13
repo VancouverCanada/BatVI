@@ -1,0 +1,405 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="Decode_Manual" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"profileUrl":null,"token":null,"assetHostPath":"http://www.gstatic.com/codesite/ph","domainName":null,"assetVersionPath":"http://www.gstatic.com/codesite/ph/7946249550397220285","projectHomeUrl":"/p/batman-aligner","relativeBaseUrl":"","projectName":"batman-aligner","loggedInUserEmail":null};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-11599707-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>Decode_Manual - 
+ batman-aligner -
+ 
+ Decode manual. - 
+ Short Reads aligner - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="http://code.google.com/feeds/p/batman-aligner/svnchanges/basic?path=/wiki/Decode_Manual.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ <a href="Decode_Manual#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FDecode_Manual&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FDecode_Manual" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ <td id="plogo">
+ <link itemprop="url" href="../../batman-aligner.1">
+ <a href="../../batman-aligner.1">
+ 
+ <img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="../../batman-aligner.1"><span itemprop="name">batman-aligner</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="../../batman-aligner.1"><span itemprop="description">Short Reads aligner</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="http://code.google.com/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="../../batman-aligner.1" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="../downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="index.html" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="index.html" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <span style="font-size:120%;font-weight:bold">Decode_Manual</span>
+ &nbsp;
+ <div> 
+ 
+ <i>Decode manual.</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Sat May 26 13:09:07 2012">
+ Today (6 hours ago)</span>
+ 
+ by <a style="white-space: nowrap" href="http://code.google.com/u/115835183135888412771/">drcy...@gmail.com</a>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <p><ul><li><a href="Decode_Manual#Introduction">Introduction</a></li><li><a href="Decode_Manual#Basic_usage">Basic usage</a></li><li><a href="Decode_Manual#Decoding_using_a_single_index">Decoding using a single index</a></li><li><a href="Decode_Manual#Dividing_locations_to_regions">Dividing locations to regions</a></li><li><a href="Decode_Manual#Verify_Hits">Verify Hits</a></li><li><a href="Decode_Manual#Control_the_number_of_hits">Control the number of hits</a></li><li><a href="Decode_Manual#Output_Format">Output Format</a></li><li><a href="Decode_Manual#format">format</a></li><li><a href="Decode_Manual#Logging_output">Logging output</a></li></ul> </p><h1><a name="Introduction"></a>Introduction<a href="Decode_Manual#Introduction" class="section_anchor"></a></h1><p><tt>batdecode</tt> is used to convert the binary output of BatMis to human readable form. </p><h1><a name="Basic_usage"></a>Basic usage<a href="Decode_Manual#Basic_usage" class="section_anchor"></a></h1><p>  The basic usage of the <tt>batdecode</tt> program is as follows. </p><p><tt>batdecode -g genome -i hits -o outputfile</tt>  </p><p>where genome is the base name of the set of index files,<tt>hits</tt> is the file containing hits output from <tt>batman</tt> and <tt>outputfile</tt> is the file to store decoded output. The default output is a SAM file. The base name of the index file is taken to be the name of the FASTA file used in building indices with build_index script. For example, if we have a set of  index files <tt>genome.fmv, revgenome.fmv, genome.bwt, revgenome.bwt, genome.sa,revgenome.sa</tt>, we take the base name to be <tt>genome</tt>. If no genome is specified, the default base name is assumed to be <tt>genome</tt>. For a synopsis of options see <a href="Decode_CL">Decode_CL</a> </p><h1><a name="Decoding_using_a_single_index"></a>Decoding using a single index<a href="Decode_Manual#Decoding_using_a_single_index" class="section_anchor"></a></h1><p>Sometimes due to memory constraints, it might not be possible to load both of the indices. We can still decode the output using only the reverse index, if we generate the hits using <tt>-s</tt> option in <tt>batman</tt>. </p><h1><a name="Dividing_locations_to_regions"></a>Dividing locations to regions<a href="Decode_Manual#Dividing_locations_to_regions" class="section_anchor"></a></h1><p>We might need to know whether a hit falls to a certain region. For example, we might prefer to know which chromosome a hit came from, rather than knowing the location of the hit in the genome. We can use a file to give <tt>batdecode</tt> the inform ation describing the regions we partition the genome into, and pass it using  the <tt>--location</tt> option. If no file is specified with this option, the default is a file with the base name and the extension <tt>ann.location</tt>. If the fasta file used to build the index of the genome is built by copying  sevaral regions, each starting with a line with a comment that starts with &gt;, build_index will automatically create a location file, with extension <tt>.ann.location</tt>. The comment should not include white spaces. </p><p>NOTE: <tt>--location</tt> is an optional parameter, and as such must use an equal sign or, if using the short option, must not use a space to seperate an argument. e.g. </p><p>`batdecode -g genome -i hits -o outputfile -lgenome.ann.location batdecode -g genome -i hits -o outputfile --location=genome.ann.location` </p><h1><a name="Verify_Hits"></a>Verify Hits<a href="Decode_Manual#Verify_Hits" class="section_anchor"></a></h1><p>Use the verify option <tt>-v</tt> to check the accuracy of hits. <tt>batdecode</tt> will check the hits in the indices, and if not found will check the hits against the actual location of the <tt>.bin</tt> file of the reference genome that was created during the initial index building phase. For example </p><p><tt>batdecode -g genome -i hits -v</tt> </p><p>will check the hits against <tt>genome.bin</tt> file. When using verify, hit locations are not written. If <tt>-V</tt> option (upper case V) is used, then the hits will always be verified against the <tt>.bin</tt> file. This would be the most accurate verification of hits, but is very slow due to constant random disk access.  </p><h1><a name="Control_the_number_of_hits"></a>Control the number of hits<a href="Decode_Manual#Control_the_number_of_hits" class="section_anchor"></a></h1><p>By default, <tt>batdecode</tt> will output a maximum number of hits specified in the <tt>--maxhits</tt> setting of <tt>batman</tt>. However, this number can be changed by passing the number of hits required to <tt>batdecode</tt> with the <tt>--maxhits</tt> parameter. </p><h1><a name="Output_Format"></a>Output Format<a href="Decode_Manual#Output_Format" class="section_anchor"></a></h1><p>The output of BatMis can be compressed as a gzip file using the <tt>--zip</tt> option. </p><p>&#x27;--sam&#x27; option can be used to generate output in the SAM format, which is the default output format. </p><p>&#x27;--gis&#x27; will produce the output in BatMis format. </p><h1><a name="format"></a>BatMis format<a href="Decode_Manual#format" class="section_anchor"></a></h1><h2><a name="Hit_Location"></a>Hit Location<a href="Decode_Manual#Hit_Location" class="section_anchor"></a></h2><p>In the BatMis output format, The hit location is 0-based. (i.e the starting location of the genome is assumed to be 0), and + strand coordinates are output. For example consider the following genome. <table class="wikitable"><tr><td style="border: 1px solid #ccc; padding: 5px;">  0123456789...............</td><td style="border: 1px solid #ccc; padding: 5px;"> </td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;">+ AACGTTTTTACGTACGTACGTCCCA</td><td style="border: 1px solid #ccc; padding: 5px;"> &lt;---genome</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;">- TTGCAAAAATGCATGCATGCAGGGT</td><td style="border: 1px solid #ccc; padding: 5px;"> &lt;---complement of genome`</td></tr> <tt>batdecode</tt> will convert the location of a reverse  complemented tag to the coordinate in the + strand.  Searching for TAAAAA and TTTTTA  in the genome above will both return location 4. The command line option <tt>--plusstrand</tt> has the same effect. </table></p><p>with the <tt>--mixstrand</tt> option if a hit is in the reverse strand, the end location of the hit minus the the gap specified is output. For example in the above genome with <tt>--mixstrand=0</tt> If we search for TAAAAA the hit location would be 9. If we search for TTTTTA, the hit  location would be 4. </p><p><tt>--offset</tt> option will subtract the given positive or negative integer from the hit location. This can be used to convert 0 based coordinates to 1 based coordinates. The command </p><p><tt>./batdecode -g genome -i hits -o outputfile -O-1</tt> </p><p>will output the 1-based locations.  </p><p>See also :<a href="Decode_Manual#Dividing_locations_to_regions">this</a> section in this document. </p><h2><a name="Boundary_Hits"></a>Boundary Hits<a href="Decode_Manual#Boundary_Hits" class="section_anchor"></a></h2><p>The <tt>--filterboundaryhits</tt> option will output reads that map to a boundary of two chromosomes to a file named <tt>boundary.fq</tt>. The script <tt>fix_boundary</tt> can be run to further process these hits. For each read in <tt>boundary.fq</tt>, the command </p><p><tt>fix_boundary genome mismatch_number</tt> </p><p>will report least mismatch hits in <tt>output.txt.least</tt> and if a unique hit can be found, it will be reported in <tt>output.txt.unique</tt>.   </p><h2><a name="Description"></a>Description<a href="Decode_Manual#Description" class="section_anchor"></a></h2><p>BatMis has an output format that some may find to be more easily parsable than the SAM format in some cases. Following is an example of the output for pair ended read. All fields are tab separated. </p><pre class="prettyprint">@
+chr11:51458    ACTTTAAGTTCTAGGGTACcTGTGCACAACGTGCAG    ACATATGTATACATGTGCCGTGTTGGTGcGCTGCAC      *      2:122:0:0:0:0:0 0:19:2:0:0:0:0
+1       CHR 11  +       15366874        0       36      28      
+1       CHR 11  +       86816011        1       36      28      19&gt;g     
+1       CHR 11  -       113718342       0       36      28      
+1       CHR 11  -       68149985        1       36      28      25&gt;a        
+2       CHR 11  +       48520173        1       36      29      28&gt;t    
+2       CHR 11  +       42977546        1       36      29      28&gt;t      
+2       CHR 11  -       63006056        1       36      29      16&gt;t    
+2       CHR 11  -       110016787       1       36      29      16&gt;t </pre><p>The start of hits record for a new tag is followed by a line containing &#x27;@&#x27;. the next line is of the form <tt>&lt;description&gt;</tt> <tt>&lt;read 1&gt;</tt> <tt>&lt;read 2&gt;</tt> <tt>&lt;quality&gt;</tt> <tt>&lt;stats 1&gt;</tt> <tt>&lt;stats 2&gt;</tt> </p><p>where <tt>&lt;description&gt;</tt> is the description of the read in the input file, <tt>&lt;read 1&gt;</tt> and <tt>&lt;read 2&gt;</tt> are head and tail portions of the pair ended read (resply.). <tt>&lt;quality&gt;</tt> gives the tab seperated quality information about read 1 and 2, and if no quality information is present is replaced by an <tt>*</tt>. <tt>&lt;stat n&gt;</tt> gives the statistics for <tt>&lt;read n&gt;</tt> encountered in the scan. It is of the form <tt>s_1:s_2:s_3:s_4:s_5:s_6</tt>, where <tt>s_n</tt> gives the number of hits with n mismatches for n&lt;6 and s6 gives the number of hits having more than 5 mismatches. In the example <tt>stats 1</tt> there are two hits which are exact matches, one of the read and the other its complement. there are at least 122 reads having one mismatch with the read and its complement. <strong>NOTE: Stastistics will only be gathered only till the given scanning criteria is fullfilled. e.g. a default scan might indicate a count of 2 for two mismatches while producing a two mismatch hit, but in reality there might be more than 2 two mismatch hits.</strong> </p><p>The hit information is of the following form. <tt>&lt;read pos&gt;</tt> <tt>&lt;chromosome&gt;</tt> <tt>&lt;orientation&gt;</tt> <tt>&lt;hit location&gt;</tt> <tt>&lt;number of mismatches&gt;</tt> <tt>&lt;read length&gt;</tt> <tt>&lt;read number&gt;</tt> <tt>&lt;mismatch info&gt;</tt> </p><p>&lt;read pos&gt; is 1 or 2 depending on whether the hit is for head or tail (resply).For single ended reads, it is always 1. If this column contains an <tt>*</tt> the read falls to the boundary of two sections (e.g. between two chromosomes) in the genome and should be ignored. The <tt>&lt;read number&gt;</tt> is the position of the read in the input file, Mismatch info is tab seperated description of the nature of mismatches and is describes below. other fields are self explanatory. </p><p><tt>&lt;Mismatch_Info&gt;</tt> gives details about the mismatches. An entry of the form <strong>number&gt;<i>lower case letter</i></strong> means that, after converting to the reverse complementary if the read is from the - strand, the base at read location  <strong>number</strong> should be replaced by the <strong><i>lower case letter</i></strong> in the Read. The base locations are 0- based. If <tt>--misplus</tt> is specified, the locations are always with respect to the original read. If it is of the form <strong>number&gt;<i>UPPER CASE LETTER</i></strong>, the <strong><i>UPPER CASE LETTER</i></strong> should be inserted at location <strong>number</strong>.  If the entry is of the form <strong>number&lt;D</strong>, a deletion occurs at location <strong>number</strong>. <tt>&lt;Location&gt;</tt> is the actual hit location in the genome.  If the entry is of the form <strong>number:<i>lower case letter</i></strong>, an N is replaced at location <strong>number</strong> with the given letter. </p><p>Below is an output for a single end tag. The only difference is that tail information is missing. </p><pre class="prettyprint">@
+chr11:53494    ATCATTTGACTTcTTTTCTAATTTGTATACCTTTTA    [[[[[[[[[[[[[[[[[[[[[[[YV[T[YKQQLQPK    1:0:0:0:1:2:0
+1       CHR 11  +       53494   0       36      56      
+1       CHR 11  -       16482426        4       36      56      7&gt;c     17&gt;g    33&gt;t    34&gt;g    
+1       CHR 11  -       10061067        5       36      56      26&gt;t    17&gt;g    10&gt;c    8&gt;g     7&gt;c     
+1       CHR 11  -       59849708        5       36      56      28&gt;a    33&gt;t    16&gt;c    10&gt;c    6&gt;c      </pre><h1><a name="Logging_output"></a>Logging output<a href="Decode_Manual#Logging_output" class="section_anchor"></a></h1><p><tt>batdecode</tt> logs its output to <tt>decode.log</tt>. This file can be changed using the <tt>--logfile</tt> option. </p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ 
+ <br>
+ <div class="artifactcomment">
+ <span class="indicator">&#9658;</span> <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FDecode_Manual&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FDecode_Manual"
+ >Sign in</a> to add a comment
+ </div>
+ 
+ 
+ 
+ 
+ <form name="delcom" action="http://code.google.com/p/batman-aligner/w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="Decode_Manual" >
+ <input type="hidden" name="token" value="" >
+ </form>
+
+
+
+ <script src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+ <script type="text/javascript" src="../../../js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="../../../projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="../../support/index.html">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="../../../projecthosting/index.html">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

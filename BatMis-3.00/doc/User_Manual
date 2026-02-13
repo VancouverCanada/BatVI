@@ -1,0 +1,403 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="User_Manual" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"profileUrl":null,"token":null,"assetHostPath":"http://www.gstatic.com/codesite/ph","domainName":null,"assetVersionPath":"http://www.gstatic.com/codesite/ph/7946249550397220285","projectHomeUrl":"/p/batman-aligner","relativeBaseUrl":"","projectName":"batman-aligner","loggedInUserEmail":null};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-11599707-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>User_Manual - 
+ batman-aligner -
+ 
+ BatMis User manual. - 
+ Short Reads aligner - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="http://code.google.com/feeds/p/batman-aligner/svnchanges/basic?path=/wiki/User_Manual.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ <a href="User_Manual#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FUser_Manual&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FUser_Manual" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ <td id="plogo">
+ <link itemprop="url" href="../../batman-aligner.1">
+ <a href="../../batman-aligner.1">
+ 
+ <img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="../../batman-aligner.1"><span itemprop="name">batman-aligner</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="../../batman-aligner.1"><span itemprop="description">Short Reads aligner</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="http://code.google.com/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="../../batman-aligner.1" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="../downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="index.html" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="index.html" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <span style="font-size:120%;font-weight:bold">User_Manual</span>
+ &nbsp;
+ <div> 
+ 
+ <i>BatMis User manual.</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Fri May 25 14:19:21 2012">
+ Yesterday (29 hours ago)</span>
+ 
+ by <a style="white-space: nowrap" href="http://code.google.com/u/115835183135888412771/">drcy...@gmail.com</a>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <p><ul><li><a href="User_Manual#Introduction">Introduction</a></li><li><a href="User_Manual#Basic_Usage">Basic Usage</a></li><li><a href="User_Manual#Output_Modes">Output Modes</a></li><li><a href="User_Manual#File_Names">File Names</a></li><li><a href="User_Manual#File_format">File format</a></li><li><a href="User_Manual#Single_Index">Single Index</a></li><li><a href="User_Manual#Number_of_Hits">Number of Hits</a></li><li><a href="User_Manual#Mismatch_Number">Mismatch Number</a></li><li><a href="User_Manual#Filtering_reads">Filtering reads</a></li><li><a href="User_Manual#Logging_output">Logging output</a></li><li><a href="User_Manual#Statmode">Statmode</a></li><li><a href="User_Manual#Scanning_Options">Scanning Options</a></li><li><a href="User_Manual#Uncalled_bases">Uncalled bases</a></li><li><a href="User_Manual#Controlling_accuracy">Controlling accuracy</a></li><li><a href="User_Manual#Automate_mapping">Automate mapping</a></li><li><a href="User_Manual#Building">Building</a></li><li><a href="User_Manual#Email_Notification">Email Notification</a></li></ul> </p><h1><a name="Introduction"></a>Introduction<a href="User_Manual#Introduction" class="section_anchor"></a></h1><p>This is the user manual of BatMis. BatMis is a BWT based aligner that can report least mismatch hits, unique hits and multiple hits allowing only mismatches efficiently. Following gives an overview of the options. </p><h1><a name="Basic_Usage"></a>Basic Usage<a href="User_Manual#Basic_Usage" class="section_anchor"></a></h1><p>To run a query against a reference genome, we must first build a set of indices for that genome. This is a one-time operation for a given genome. If the reference genome is in a fasta file named <tt>genome</tt> we would run the script build_index as follows. </p><p><tt>build_index genome</tt> </p><p>The basic usage of BatMis would be like below; </p><p><tt>batman -q readsfile -g genome -o hitsfile -n number_of_mismatches</tt> </p><p>where <tt>readsfile</tt> is the file containing reads, <tt>genome</tt> is the base name of the set of index files, and <tt>hitsfile</tt> is the file to store the output of hits. The base name of the index file is taken to be the name of the FASTA file used in building indices with <tt>build_index</tt> script. If we have a set of  index files `genome.fmv, revgenome.fmv, genome.bwt, revgenome.bwt, genome.sa, revgenome.sa<tt>, we take the base name to be </tt>genome`. ( If no genome is specified, batman assumes the base name <tt>genome</tt>. ) </p><p>BatMis will generate a binary file containing information about hits. In order to obtain a human readable output, we must run the <tt>hitsfile</tt> through the <a href="Decode_Manual">`batdecode` program</a> as follows.  </p><p><tt>batdecode -g genome -i hitsfile -o decodedhits.txt</tt> </p><p>This will store the human readable version of hits in the file <tt>decodedhits.txt</tt>.  </p><p>The following describes the options supported by BatMis. For a synopsis see <a href="Bat_CL">Bat_CL</a> </p><h1><a name="Output_Modes"></a>Output Modes<a href="User_Manual#Output_Modes" class="section_anchor"></a></h1><p>By default, BatMis will not output the details of a read if a hit is not found. The <tt>--printblanks</tt> option will output the details of a read even if a hit is not found.. </p><h1><a name="File_Names"></a>File Names<a href="User_Manual#File_Names" class="section_anchor"></a></h1><p><tt>--query</tt> and <tt>--output</tt> specifies the name of the file containing the reads and the name of the file the hits are output to respectively. by default reads are taken from the file <tt>tags.fq</tt>, hits are written to <tt>hits.txt</tt>. </p><p>BatMis can automatically detect and use query files compressed using gzip. If the output of BatMis is to be compressed use the <tt>--zip</tt> option.<strong>Zip file support is temporarily disabled in the newest release</strong> </p><h1><a name="File_format"></a>File format<a href="User_Manual#File_format" class="section_anchor"></a></h1><p>BatMis will detect and process FASTA and FASTQ files. SOLiD /ILLUMINA formats will be auto detected too unless a dibase encoding is used (i.e the file uses ACGT instead of color codes). In this case use <tt>--forcesolid</tt> option.  Paired end reads can be given in two FASTA/FASTQ files or in tab seperated FASTA/FASTQ entries. If using two separate files for paired end reads, specify them with the <tt>-q</tt> two times. First file specified will contain the head info, and the other the tail info. e.g. </p><p><tt>batman -q headfile.fa -q tailfile.fq -g genome -o hitsfile</tt> </p><p>Note that pairing of reads will not be done by BatMis, instead it will process the two  files in parallel. </p><h1><a name="Single_Index"></a>Single Index<a href="User_Manual#Single_Index" class="section_anchor"></a></h1><p>In order to decode an output file to human readable form, we need to load information about both the reverse and forward indices of a genome. Sometimes there might not be sufficient memory to do this. <tt>--singleindex</tt> will convert all the hits so that the output can be read by loading only the reverse index. For more information refer to the following.Low_Memory </p><h1><a name="Number_of_Hits"></a>Number of Hits<a href="User_Manual#Number_of_Hits" class="section_anchor"></a></h1><p>The option <tt>--maxhits</tt> will specify the maximum number of hits to output per read. Setting this to one will give the first hit. Setting this to all (i.e. <tt>mall</tt>) will find all the possible hits under the current setting. if <tt>--leastmismatch</tt> option is specified, only the least mismatch hits will be enumerated.  Note that for more than 5 mismatches duplicates are not filtered at the moment, and it is suggested to use this feature carefully with high mismatch mappings. </p><h1><a name="Mismatch_Number"></a>Mismatch Number<a href="User_Manual#Mismatch_Number" class="section_anchor"></a></h1><p>The option <tt>--maxmismatches</tt> specifies the maximum number of mismatches to tolerate in  a read.  By default BatMis allows four mismatches. The maximum number of mismatches  allowed is 10. &#x27;--nismismatch<tt> option will treat each occurance of an N in the read as a mismatch.</tt>--ignoren&#x27; will not count an N as a mismatch. For example suppose a scan is performed allowing two mismatches in a read having a single   N. If <tt>--nismismatch</tt> was specified, a two mismatch scan will be performed, but a hit will be reported only if there is at most one mismatch outside the N. If <tt>--ignoren</tt> is specified, a three mismatch scan will be performed, allowing at most two mismatches outside the N. If these options are not specified, the N&#x27;s will replaced by a fixed or random nucleotide as specified by the user and the resultant read will be mapped without any special regard for uncalled bases. </p><h1><a name="Filtering_reads"></a>Filtering reads<a href="User_Manual#Filtering_reads" class="section_anchor"></a></h1><p><tt>--nbound</tt> will not map reads having more than specified number of N&#x27;s in them. For less than two mismatches nbound defaults to 2 and for larger mismatches, arbitrary number of N&#x27;s are allowed. <tt>--dust</tt> will filter out low complexity reads using dust algorithm. </p><h1><a name="Logging_output"></a>Logging output<a href="User_Manual#Logging_output" class="section_anchor"></a></h1><p>BatMis outputs a log of current mapping to <tt>batman.log</tt> by default. This file can be changed using <tt>--logfile</tt> option. </p><h1><a name="Statmode"></a>Statmode<a href="User_Manual#Statmode" class="section_anchor"></a></h1><p>Enabling statmode with &#x27;--statmode&#x27; will filter out reads with too many hits. If the number of hits with up to one mismatch is larger than thereshold1 or the number of hits with upto two mismatches is larger than threshold2 the read will be rejected. values for threshold1 (default 40) and threshold2(default 50) can be set with <tt>w</tt> and <tt>W</tt> respectively. Alternatively, statistics for a read can be obtained from the decoded output. Statistics might not be reliable for &gt;5 mismatch scans.<strong>NOTE: Stastistics will only be gathered only till the given scanning criteria is fullfilled. e.g. a default scan might find no 0-mismatch hits and two 1-mismatch hits, and stop scanning since a unique hit cannot be found . The output will indicate a count of 2 for 1-mismatch hits, but actually there might be much more more 1-mismatch hits.</strong> </p><h1><a name="Scanning_Options"></a>Scanning Options<a href="User_Manual#Scanning_Options" class="section_anchor"></a></h1><p>BatMis will search for unique hits by default. If <tt>--maxhits</tt> is specified, BatMis  will output the <tt>--maxhits</tt> number of hits, starting from the least mismatch hits   until hits have at most <tt>--maxmismatches</tt>(default 4) number of mismatches. If the option <tt>--leastmismatch</tt> is specified, only a maximum of <tt>--maxhits</tt> number of least mismatch hits will be enumerated.  </p><p>The default <tt>--zigzag</tt> option will scan the two orientations of a read alternately to search for mismatches. This is the usual way most other aligners work. For example it will look for an exact match on the current read, then for an exact match in the reverse complement of the read, switch back to the original read for a one mismatch etc.  </p><p>In the <tt>--guess</tt> mode, BatMis will try to decide the orientation of the read. If the guess does  not yield a hit, BatMis will try the reverse complement of the read. In this mode, if the <tt>--rollover</tt>  option is specified, if the number of hits found in the guessed direction of the read  does not produce <tt>--maxhits</tt> hits, the reverse complement of the read will be  searched until at most a total of <tt>--maxhits</tt> hits are found. <tt>--scanboth</tt> will make BatMis scan both directions of the read allowing at most <tt>--maxhits</tt> number of hits for each side. </p><p>The <tt>--nocomplement</tt> option will assume that the reads are in correct orientation and  will try to align them as they are, and will not check whether the reverse complement of the read will produce a hit. <tt>--maxtags</tt> option specifies a number of reads to map from the read file. This option might be useful to get an idea of the mapping rate and speed by doing a sample run on a small number of reads. </p><p><tt>--filteruniquehits</tt> will search for a uniquely mappable hit X, in the sense that any other hit will contain a larger number of mismatches than X. This is the default option. </p><p><tt>--slider</tt> option will slide a window of specified length across the read and will perform the mapping on the bases on the window. The mapped window will have a read id prefixed by the window position in the read. &#x27;--blast<tt> mode is similar to the slider mode, except it will output the whole read to the file </tt>BLAST.txt` (in addition to writing the hits file) and stop the sliding once it comes across a hit. The idea is to do an initial search of the read to see if there is a fairly conserved portion in it that can be mapped to the genome, and if so run the read through something like BLAST/BWT-SW to get the best alignment. </p><p>The <tt>--mishits</tt> will write the reads without a hit to a FASTQ file.The default name of the file is <tt>mishits.fq</tt>. </p><h1><a name="Uncalled_bases"></a>Uncalled bases<a href="User_Manual#Uncalled_bases" class="section_anchor"></a></h1><p>N&#x27;s in the reference genome are converted to C when the indexes are built by default. Uncalled bases in the read are converted to &#x27;A&#x27; or &#x27;0&#x27;. <tt>--randomletter</tt> option will convert uncalled bases in the read to a random letter. </p><h1><a name="Controlling_accuracy"></a>Controlling accuracy<a href="User_Manual#Controlling_accuracy" class="section_anchor"></a></h1><p>BatMis will by default perform a full sensitivity scan. For larger that five mismatched,mapping time can be reduced by setting <tt>--maxext</tt> to a small number (e.g. 150-300). This will skip the scanning of a read if too many extensions are performed. A lower number will reduce speed at the the expense of mapping rate. Note that a hit with too many extensions indicates a higher chance of a hit being mapped to an incorrect location. </p><h1><a name="Automate_mapping"></a>Automate mapping<a href="User_Manual#Automate_mapping" class="section_anchor"></a></h1><p>The script <tt>batmap</tt> will automate the mapping process and generation of the human readable output. It can be passed values for the options <tt>--genome,--query,--maxmismatches,--maxhits</tt> and <tt>--outputfile</tt>.   </p><h1><a name="Building"></a>Building BatMis<a href="User_Manual#Building" class="section_anchor"></a></h1><p>Follow the instructions <a href="Build">here</a> to build the package from scratch. There are two versions of BatMis, one that supports MMX instructions and one without MMX instructions.  Apparently due to a bug, some versions of gcc cannot compile some MMX instructions properly. If this is the case try an older gcc compiler or a newer gcc compiler. Intel C compiler will compile both versions without trouble. Installer script will check for MMX instruction compatibility and will revert to building the slower non MMX version if not compatible. If the build is MMX compatible, the splash screen will indicate so. </p><h1><a name="Email_Notification"></a>Email Notification<a href="User_Manual#Email_Notification" class="section_anchor"></a></h1><p>Using <tt>--email</tt> option user can be notified when BatMis has finished processing. By default BatMis can send email using standard <tt>mail</tt> or <tt>sendmail</tt> programs. Otherwise a user-defined script can be specified. A file named <tt>email.cfg</tt> in the current directory contains emailing information. If using a user defined script, the first line contains the script to use. Next lines contain To: and Subject: field information followed by the email body. By default BatMis will send the body and the command line as the message. If using a script to send messages, BatMis will pass the To:,Subject:,body and the command line as parameters (in that order). Below is a sample email.cfg file for a default mailer. </p><pre class="prettyprint">batman@gmail.com
+Batman Completed
+Hi,
+Batman has finished running...
+Below is the command line invoked...
+</pre><p>Following is a email.cfg file for using <tt>mutt</tt> as the user defined mail client. </p><pre class="prettyprint">./mutt.sh
+batman@gmail.com
+Batman Completed
+Hi,
+Batman has finished running...
+Below is the command line invoked...
+</pre><p>where mutt.sh is something like... </p><pre class="prettyprint">#!/bin/bash
+echo -e&quot;$3\n$4&quot;|mutt -s &quot;$2&quot; &quot;$1&quot;</pre>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ 
+ <br>
+ <div class="artifactcomment">
+ <span class="indicator">&#9658;</span> <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FUser_Manual&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FUser_Manual"
+ >Sign in</a> to add a comment
+ </div>
+ 
+ 
+ 
+ 
+ <form name="delcom" action="http://code.google.com/p/batman-aligner/w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="User_Manual" >
+ <input type="hidden" name="token" value="" >
+ </form>
+
+
+
+ <script src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+ <script type="text/javascript" src="../../../js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="../../../projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="../../support/index.html">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="../../../projecthosting/index.html">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

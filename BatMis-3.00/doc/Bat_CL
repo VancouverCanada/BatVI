@@ -1,0 +1,391 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="Bat_CL" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"profileUrl":null,"token":null,"assetHostPath":"http://www.gstatic.com/codesite/ph","domainName":null,"assetVersionPath":"http://www.gstatic.com/codesite/ph/7946249550397220285","projectHomeUrl":"/p/batman-aligner","relativeBaseUrl":"","projectName":"batman-aligner","loggedInUserEmail":null};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-11599707-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>Bat_CL - 
+ batman-aligner -
+ 
+ BatMis Command Line - 
+ Short Reads aligner - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="http://code.google.com/feeds/p/batman-aligner/svnchanges/basic?path=/wiki/Bat_CL.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ <a href="Bat_CL#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBat_CL&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBat_CL" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ <td id="plogo">
+ <link itemprop="url" href="../../batman-aligner.1">
+ <a href="../../batman-aligner.1">
+ 
+ <img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="../../batman-aligner.1"><span itemprop="name">batman-aligner</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="../../batman-aligner.1"><span itemprop="description">Short Reads aligner</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="http://code.google.com/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="../../batman-aligner.1" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="../downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="index.html" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="index.html" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <span style="font-size:120%;font-weight:bold">Bat_CL</span>
+ &nbsp;
+ <div> 
+ 
+ <i>BatMis Command Line</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Sat May 26 13:16:40 2012">
+ Today (6 hours ago)</span>
+ 
+ by <a style="white-space: nowrap" href="http://code.google.com/u/115835183135888412771/">drcy...@gmail.com</a>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <p><ul><li><a href="Bat_CL#Introduction">Introduction</a></li><li><a href="Bat_CL#Command_Line_Parameters">Command Line Parameters</a></li></ul> </p><h1><a name="Introduction"></a>Introduction<a href="Bat_CL#Introduction" class="section_anchor"></a></h1><p>Following is a summary of BatMis command line. Add your content here. </p><h1><a name="Command_Line_Parameters"></a>Command Line Parameters<a href="Bat_CL#Command_Line_Parameters" class="section_anchor"></a></h1><p><table class="wikitable"><tr><td style="border: 1px solid #ccc; padding: 5px;">Long Format</td><td style="border: 1px solid #ccc; padding: 5px;">Short Format</td><td style="border: 1px solid #ccc; padding: 5px;">parameter</td><td style="border: 1px solid #ccc; padding: 5px;">Synopsis</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;">--help </td><td style="border: 1px solid #ccc; padding: 5px;"> -h	</td><td style="border: 1px solid #ccc; padding: 5px;">    </td><td style="border: 1px solid #ccc; padding: 5px;">Print help</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --query </td><td style="border: 1px solid #ccc; padding: 5px;"> -q </td><td style="border: 1px solid #ccc; padding: 5px;">filename	  </td><td style="border: 1px solid #ccc; padding: 5px;">Query file(File of Tags)</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --output </td><td style="border: 1px solid #ccc; padding: 5px;"> -o </td><td style="border: 1px solid #ccc; padding: 5px;">filename	  </td><td style="border: 1px solid #ccc; padding: 5px;">Name of output file</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --genome </td><td style="border: 1px solid #ccc; padding: 5px;"> -g </td><td style="border: 1px solid #ccc; padding: 5px;">filename	  </td><td style="border: 1px solid #ccc; padding: 5px;">Name of the reference genome</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --buffersize </td><td style="border: 1px solid #ccc; padding: 5px;"> -b </td><td style="border: 1px solid #ccc; padding: 5px;">number	  </td><td style="border: 1px solid #ccc; padding: 5px;">Size of disk buffers</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --maxhits </td><td style="border: 1px solid #ccc; padding: 5px;"> -m </td><td style="border: 1px solid #ccc; padding: 5px;">number	  </td><td style="border: 1px solid #ccc; padding: 5px;">Maximum number of hits to output</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --logfile </td><td style="border: 1px solid #ccc; padding: 5px;"> -l </td><td style="border: 1px solid #ccc; padding: 5px;">filename	  </td><td style="border: 1px solid #ccc; padding: 5px;">Log BatMis output to this file</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --singleindex </td><td style="border: 1px solid #ccc; padding: 5px;"> -s </td><td style="border: 1px solid #ccc; padding: 5px;">         </td><td style="border: 1px solid #ccc; padding: 5px;">Convert output to be decoded by reverse index only</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --mishits </td><td style="border: 1px solid #ccc; padding: 5px;"> -x </td><td style="border: 1px solid #ccc; padding: 5px;">filename     </td><td style="border: 1px solid #ccc; padding: 5px;">Print unprocessed hits to the fasta file mishits.fq</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --maxmismatches </td><td style="border: 1px solid #ccc; padding: 5px;"> -n </td><td style="border: 1px solid #ccc; padding: 5px;">number </td><td style="border: 1px solid #ccc; padding: 5px;">Maximum mismatches allowed.-mall for all hits</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --nocomplement </td><td style="border: 1px solid #ccc; padding: 5px;"> -c </td><td style="border: 1px solid #ccc; padding: 5px;">	  </td><td style="border: 1px solid #ccc; padding: 5px;">Do not scan for the reverse complement of tag</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --guess </td><td style="border: 1px solid #ccc; padding: 5px;"> -G </td><td style="border: 1px solid #ccc; padding: 5px;">	  </td><td style="border: 1px solid #ccc; padding: 5px;">Try to guess the orientation of the read..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --forcesolid </td><td style="border: 1px solid #ccc; padding: 5px;"> -L </td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">force file to be considered as SOLiD. Use with dibase encoded files..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --slider </td><td style="border: 1px solid #ccc; padding: 5px;"> -a </td><td style="border: 1px solid #ccc; padding: 5px;"> number </td><td style="border: 1px solid #ccc; padding: 5px;"> Slider Mode.. </td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --blast </td><td style="border: 1px solid #ccc; padding: 5px;"> A </td><td style="border: 1px solid #ccc; padding: 5px;"> number </td><td style="border: 1px solid #ccc; padding: 5px;"> Slider blast Mode..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --indelscan </td><td style="border: 1px solid #ccc; padding: 5px;"> i  </td><td style="border: 1px solid #ccc; padding: 5px;">		  </td><td style="border: 1px solid #ccc; padding: 5px;">scan for indels ...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --usequality </td><td style="border: 1px solid #ccc; padding: 5px;"> -p</td><td style="border: 1px solid #ccc; padding: 5px;">		  </td><td style="border: 1px solid #ccc; padding: 5px;">Use quality score..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --dust </td><td style="border: 1px solid #ccc; padding: 5px;"> -d</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;"> Filter low complexity reads...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --maxext </td><td style="border: 1px solid #ccc; padding: 5px;"> -E </td><td style="border: 1px solid #ccc; padding: 5px;">number 	  </td><td style="border: 1px solid #ccc; padding: 5px;">Limit of extension in heuristics ...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --filteruniquehits </td><td style="border: 1px solid #ccc; padding: 5px;"> U</td><td style="border: 1px solid #ccc; padding: 5px;">  </td><td style="border: 1px solid #ccc; padding: 5px;"> Write a hit if it is the uniquehit...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --ignorehead </td><td style="border: 1px solid #ccc; padding: 5px;"> I </td><td style="border: 1px solid #ccc; padding: 5px;">number	</td><td style="border: 1px solid #ccc; padding: 5px;"> Ignore specified number of bases from start...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --forcelength </td><td style="border: 1px solid #ccc; padding: 5px;"> F </td><td style="border: 1px solid #ccc; padding: 5px;">number	</td><td style="border: 1px solid #ccc; padding: 5px;"> Force the string lengths to be that specified by number...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --rollover </td><td style="border: 1px solid #ccc; padding: 5px;"> -r </td><td style="border: 1px solid #ccc; padding: 5px;">  	 </td><td style="border: 1px solid #ccc; padding: 5px;">when MAXHITS hits are not found, scan the reverse complement..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --printblanks</td><td style="border: 1px solid #ccc; padding: 5px;"> -B </td><td style="border: 1px solid #ccc; padding: 5px;">		 </td><td style="border: 1px solid #ccc; padding: 5px;">write an empty record for unprocessed tags..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --scanboth </td><td style="border: 1px solid #ccc; padding: 5px;"> -M</td><td style="border: 1px solid #ccc; padding: 5px;">		 </td><td style="border: 1px solid #ccc; padding: 5px;">scan both directions of a tag, even if default yields hit..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --email </td><td style="border: 1px solid #ccc; padding: 5px;"> -e</td><td style="border: 1px solid #ccc; padding: 5px;"> number</td><td style="border: 1px solid #ccc; padding: 5px;"> Notify by email when finished (0=User,1=mail,2=sendmail)..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --maxtags </td><td style="border: 1px solid #ccc; padding: 5px;"> -t </td><td style="border: 1px solid #ccc; padding: 5px;">number</td><td style="border: 1px solid #ccc; padding: 5px;"> Scan only given number of tags..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --zip  </td><td style="border: 1px solid #ccc; padding: 5px;"> -z </td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">Compress the output file..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --statmode </td><td style="border: 1px solid #ccc; padding: 5px;"> -S </td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">Filter if too many low mismatch hits...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --threshold1</td><td style="border: 1px solid #ccc; padding: 5px;"> -w</td><td style="border: 1px solid #ccc; padding: 5px;"> number</td><td style="border: 1px solid #ccc; padding: 5px;"> parameters for statmode..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --threshold2 </td><td style="border: 1px solid #ccc; padding: 5px;"> -W </td><td style="border: 1px solid #ccc; padding: 5px;">number</td><td style="border: 1px solid #ccc; padding: 5px;"> parameters for statmode..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --zigzag </td><td style="border: 1px solid #ccc; padding: 5px;">-Z</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">Scan in zigzag mode...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --nbound </td><td style="border: 1px solid #ccc; padding: 5px;"> -C</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">Maximum number of N&#x27;s to allow in a read..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --nismismatch </td><td style="border: 1px solid #ccc; padding: 5px;"> -X</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">Treat each N as a  mismatch..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --ignoren </td><td style="border: 1px solid #ccc; padding: 5px;"> -y</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">maxmismatches + number of N mismatches are allowed...</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> --randomletter </td><td style="border: 1px solid #ccc; padding: 5px;"> -R</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;">substitute a random letter in place of an N in the read..</td></tr> <tr><td style="border: 1px solid #ccc; padding: 5px;"> ----leastmismatch </td><td style="border: 1px solid #ccc; padding: 5px;"> -k</td><td style="border: 1px solid #ccc; padding: 5px;"> </td><td style="border: 1px solid #ccc; padding: 5px;"> find maxhit number of hits only for the least mismatch </td></tr> </table></p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ 
+ <br>
+ <div class="artifactcomment">
+ <span class="indicator">&#9658;</span> <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBat_CL&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBat_CL"
+ >Sign in</a> to add a comment
+ </div>
+ 
+ 
+ 
+ 
+ <form name="delcom" action="http://code.google.com/p/batman-aligner/w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="Bat_CL" >
+ <input type="hidden" name="token" value="" >
+ </form>
+
+
+
+ <script src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+ <script type="text/javascript" src="../../../js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="../../../projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="../../support/index.html">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="../../../projecthosting/index.html">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

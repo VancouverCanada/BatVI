@@ -1,0 +1,19 @@
+../../BatMis-3.00/src/batman -g ../../../index/HBVall/HBVall -q /home/tennakoonc/newscratch/batving/simulation/batving/sim/fastq/sim_1.fastq.gz_1.fq 
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Using the genome files
+ ../../../index/HBVall/HBVall.bwt	 ../../../index/HBVall/HBVall.fmv
+ ../../../index/HBVall/revHBVall.bwt	 ../../../index/HBVall/revHBVall.fmv
+Query File : /home/tennakoonc/newscratch/batving/simulation/batving/sim/fastq/sim_1.fastq.gz_1.fq 		 Output file: hits.txt
+Length of Tags: 100	Mismatches allowed : 4
+FASTQ file..
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+Not using Quality info...
+Scanning complement...
+Not scanning indels...
+^^Scanning in zigzag mode^^
+Writing only unique hits...
+4%->9%->14%->19%->24%->29%->34%->39%->44%->49%->54%->59%->64%->69%->74%->79%->84%->89%->94%->100%
+Total Tags/Hits : -18558/5188	 Tags parsed : 100039
+
+ Time Taken  - 15 Seconds ..
+ 

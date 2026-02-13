@@ -10,15 +10,16 @@ Last updated: 2026-02-13
 - [x] Fixed main entry script argument handling: `call_integrations.sh`.
 - [x] Fixed build script to fail fast on missing source tree: `build.sh`.
 - [x] Corrected README command drift (`gen_paths.sh`, `call_integrations.sh`).
+- [x] Restored missing source directories from `brownmp/batvi:devel` image layer (`sha256:e010d62dbdc504076bef816e056cc4be838702954ac1c6232fd9c1d6c6d27112`).
 
 ## Blocking items (must complete before pipeline can run)
 
-- [ ] Restore missing source directories:
+- [x] Restore missing source directories:
   - `BatMis-3.00`
   - `batindel`
   - `bin`
   - `msapipeline`
-  - `test` (optional for sample run, required for documented test flow)
+  - `test` (directory restored; sample data files are not present)
 - [ ] Install runtime dependencies:
   - `blastn`
   - `bwa`

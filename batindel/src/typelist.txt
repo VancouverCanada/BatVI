@@ -1,0 +1,13 @@
+bp-bp
+bp-hbv
+bp-hbv-bp
+bp-hbv-hg
+bp-hg
+hbv-bp
+hbv-hbv
+hbv-hg
+hg-bp
+hg-hbv
+hg-hbv-bp
+hg-hbv-hg
+hg-hg

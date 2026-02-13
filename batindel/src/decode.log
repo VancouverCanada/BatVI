@@ -1,0 +1,18 @@
+
+********************************************************************************************
+*                            batdecode Version :3.00                                       *
+********************************************************************************************
+1902 Genomes Loaded..
+Forward index loaded ...
+Reverse index loaded ...
+Using the genome files
+ ../../../index/HBVall/HBVall.bwt	 ../../../index/HBVall/HBVall.fmv	 ../../../index/HBVall/HBVall.sa
+ ../../../index/HBVall/revHBVall.bwt	 ../../../index/HBVall/revHBVall.fmv	 ../../../index/HBVall/revHBVall.sa
+Input File : hits.txt	  Output File : output.txt 
+Length of a tag : 100
+Using location file : ../../../index/HBVall/HBVall.ann.location
+1%->6%->11%->16%->21%->26%->31%->36%->41%->46%->51%->56%->61%->66%->71%->76%->81%->86%->91%->96%->100%
+Total Tags/Hits[Rejected Hits] 5188 / 5188[19]
+
+ Time Taken  - 0 Seconds ..
+ 

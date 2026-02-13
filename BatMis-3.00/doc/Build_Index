@@ -1,0 +1,457 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="Build_Index" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var CS_env = {"profileUrl":null,"token":null,"assetHostPath":"http://www.gstatic.com/codesite/ph","domainName":null,"assetVersionPath":"http://www.gstatic.com/codesite/ph/7946249550397220285","projectHomeUrl":"/p/batman-aligner","relativeBaseUrl":"","projectName":"batman-aligner","loggedInUserEmail":null};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-11599707-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>Build_Index - 
+ batman-aligner -
+ 
+ Building the index. - 
+ Short Reads aligner - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="http://code.google.com/feeds/p/batman-aligner/svnchanges/basic?path=/wiki/Build_Index.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/7946249550397220285/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ <a href="Build_Index#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBuild_Index&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBuild_Index" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ <td id="plogo">
+ <link itemprop="url" href="../../batman-aligner.1">
+ <a href="../../batman-aligner.1">
+ 
+ <img src="http://www.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="../../batman-aligner.1"><span itemprop="name">batman-aligner</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="../../batman-aligner.1"><span itemprop="description">Short Reads aligner</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="http://code.google.com/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="../../batman-aligner.1" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="../downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="index.html" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="../source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="index.html" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <span style="font-size:120%;font-weight:bold">Build_Index</span>
+ &nbsp;
+ <div> 
+ 
+ <i>Building the index.</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Sat May 26 12:55:25 2012">
+ Today (6 hours ago)</span>
+ 
+ by <a style="white-space: nowrap" href="http://code.google.com/u/115835183135888412771/">drcy...@gmail.com</a>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <p><ul><li><a href="Build_Index#Introduction">Introduction</a></li><li><a href="Build_Index#What_are_the_indices_needed?">What are the indices needed?</a></li><li><a href="Build_Index#Creating_the_indexes">Creating the indexes</a></li><li><a href="Build_Index#Suggested_way_to_build_the_reverse_FM_index">Suggested way to build the reverse FM index</a></li><li><a href="Build_Index#SOLiD_index">SOLiD index</a></li><li><a href="Build_Index#Automating_the_task">Automating the task</a></li><li><a href="Build_Index#Command_line_parameters">Command line parameters</a></li></ul> </p><h1><a name="Introduction"></a>Introduction<a href="Build_Index#Introduction" class="section_anchor"></a></h1><p>This is an introduction to the indices needed by BatMis and how to build them. </p><h1><a name="What_are_the_indices_needed?"></a>What are the indices needed?<a href="Build_Index#What_are_the_indices_needed?" class="section_anchor"></a></h1><p>We need to create two sets of indices for a given genome, one is the FM index of the genome, and the other is the FM index of the reverse string of the genome. We  replace &quot;don&#x27;t cares&quot;(&#x27;n&#x27; and &#x27;N&#x27;) with the base &#x27;c&#x27;. Each FM index will have two files with extensions <tt>.bwt</tt> and <tt>.fmv</tt>. During the creation of FM indices, several other auxiliary files will be output. We need files with extensions <tt>.sa</tt>, at least for the reverse string of the genome, to decode the mapping results. Another file with the extension <tt>.ann.location</tt> will be created if the reference genome is made out of combining several genomes. </p><h1><a name="Creating_the_indexes"></a>Creating the indexes<a href="Build_Index#Creating_the_indexes" class="section_anchor"></a></h1><p>Given a FASTA file, <tt>bwtdbformat</tt> will create its FM index and some other auxiliary files. In order to assist in creating the reverse index of a genome, several scripts and utilities have been included. The Perl script <tt>strip.pl</tt> will build a file consisting only of nucleotides in a FASTA file, and will strip other information. The binary executable <tt>reverse</tt> will reverse any file. </p><h1><a name="Suggested_way_to_build_the_reverse_FM_index"></a>Suggested way to build the reverse FM index<a href="Build_Index#Suggested_way_to_build_the_reverse_FM_index" class="section_anchor"></a></h1><p>We can first strip the genome FASTA file and save it, say as <tt>genome.bin</tt>. We can then use the reverse program to reverse <tt>genome.bin</tt>, and then add a header &#x27;&gt;&#x27; to indicate that the resulting file is in FASTA format. Finally, we can replace all the don&#x27;t cares in the resulting file with &#x27;c&#x27; using the Linux command <tt>tr</tt>. Finally we can run <tt>bwtdbformat</tt> to build the indices.  </p><h1><a name="SOLiD_index"></a>SOLiD index<a href="Build_Index#SOLiD_index" class="section_anchor"></a></h1><p>First translate all the bases to uppercase bases A,C,G,T. The script <tt>filter.pl</tt> will do this. The format of the command if <tt>filter.pl input_file translate_file&#x27;.To use a genome for SOLiD mapping, we must convert it to colorspace with the script </tt>b2c.pl<tt>. The format of the command is </tt>b2c.pl GENOME<tt>, which will create a colorspace converted fasta file  </tt>GENOME.cfq<tt>. This file should now be used, instead of </tt>GENOME` file, when building the index. An example session of building the color index for <tt>genome.fa</tt> is: </p><pre class="prettyprint">./filter.pl genome.fa genomeC.fa
+./b2c.pl genomeC.fa genomeC
+./build_index genomeC</pre><h1><a name="Automating_the_task"></a>Automating the task<a href="Build_Index#Automating_the_task" class="section_anchor"></a></h1><p>We have included a shell script that will automate the creation of the required files out of a genome file. To build an index for ILLUMINA mapping, invoke the script with the command  </p><p><tt>build_index GENOME illumina &lt;path&gt;</tt> </p><p>The script will replace uncalled bases in the reference with the nucleotide &#x27;c&#x27;. To replace them with a random nucleotide use the command </p><p><tt>build_index GENOME random &lt;path&gt;</tt> </p><p>where <tt>GENOME</tt> is the name of the FASTA file, and the script will output the files related to an index on <tt>&lt;path&gt;</tt>. If <tt>&lt;path&gt;</tt> is not specified, the files will be created in the folder containing<tt>GENOME</tt>. </p><p>To auto build the colorspace index, use the command </p><p><tt>build_index GENOME color &lt;path&gt;</tt> </p><p>The colorspace index will be built with the base name GENOMEC. </p><h1><a name="Command_line_parameters"></a>Command line parameters<a href="Build_Index#Command_line_parameters" class="section_anchor"></a></h1><p>Format of <tt>strip.pl</tt> is </p><p><tt>strip.pl file1 file2</tt> </p><p>where <tt>file1</tt> is the FASTA file to be striped, and <tt>file2</tt> is the resulting file. </p><p>Format of <tt>reverse</tt> is </p><p><tt>reverse -b number -i filename1 -o filename2</tt> </p><p>where <tt>number</tt> is an integer indicating the size of buffer used, <tt>filename1</tt> is the file to be reversed, and <tt>filename2</tt> is the result. </p><p>  </p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ <div id="wikicommentcol">
+ 
+
+
+ 
+ 
+ 
+
+<div class="collapse">
+
+
+ 
+
+
+<div id="commentlist">
+
+ 
+ <div class="artifactcomment"
+ 
+ >
+ 
+ 
+ 
+ 
+ 
+ 
+ <span class="author">Comment
+ 
+ by 
+ 
+ <a style="white-space: nowrap" href="http://code.google.com/u/109804710657898939436/">wangziru...@gmail.com</a>,
+ 
+ </span>
+ <span class="date" title="Mon Oct 24 07:38:03 2011">Oct 24, 2011</span>
+ <div>
+<div class="commentcontent">
+<p>You assume that the genome input file is in unix format. Dos doesn&#x27;t work. </p>
+</div>
+ 
+ 
+ </div>
+ </div>
+ 
+
+</div>
+</div>
+
+ 
+
+
+ <script type="text/javascript">
+ function delComment(sequence_num, create_time, delete_mode) {
+ var f = document.forms["delcom"];
+ f.sequence_num.value = sequence_num;
+ f.create_time.value = create_time;
+ f.mode.value = delete_mode;
+ f.submit();
+ return false;
+ }
+ </script>
+
+
+ </div>
+ 
+ 
+ 
+ 
+ <br>
+ <div class="artifactcomment">
+ <span class="indicator">&#9658;</span> <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBuild_Index&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fbatman-aligner%2Fwiki%2FBuild_Index"
+ >Sign in</a> to add a comment
+ </div>
+ 
+ 
+ 
+ 
+ <form name="delcom" action="http://code.google.com/p/batman-aligner/w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="Build_Index" >
+ <input type="hidden" name="token" value="" >
+ </form>
+
+
+
+ <script src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/7946249550397220285/js/ph_core.js"></script>
+ 
+ 
+ 
+ 
+ <script type="text/javascript" src="../../../js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="../../../projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="../../support/index.html">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="../../../projecthosting/index.html">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

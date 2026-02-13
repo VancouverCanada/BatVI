@@ -5,7 +5,7 @@ bflag=no
 cargument=none
 
 # options may be followed by one colon to indicate they have a required argument
-if ! options=`getopt -u -o alt: -l along,filterdup,log:,threads: -- "$@"`
+if ! options=`getopt -u -o alt: -l along,filterdup,log:,threads:,skip-preflight -- "$@"`
 then
 	exit 1
 fi
@@ -26,6 +26,7 @@ do
 			Threads=$2 ; shift;;
 		-f|--filterdup) 
 			Dup_Filter=1 ; shift;;
+		--skip-preflight) ;;
 		(--) shift; break;;
 		(-*) echo "$0: error - unrecognized option $1" 1>&2; exit 1;;
 		(*) break;;

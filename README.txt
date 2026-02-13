@@ -67,7 +67,7 @@ SAMTOOLS_PATH=/usr/bin
 BEDTOOLS_PATH=/usr/bin
 
 You can let BatVI automatically try to generate the entries for paths of the
-binaries by running the script gen_hits.sh 
+binaries by running the script gen_paths.sh
 
 3. PREPARING THE INDEXES
 ========================
@@ -112,8 +112,11 @@ filelist.txt
 A_1.fq;A_2.fq;800
 B_1.fq;B_2.fq;800
 
+Run a preflight check before starting:
+    ./preflight_check.sh <processing_directory>
+
 Integrations are called with the command
-    call_integratons.sh <processing_directory> [ options ]
+    ./call_integrations.sh <processing_directory> [ options ]
 
 The options are:
 -l|--log <log file name> 	- Name of the log files to write processing

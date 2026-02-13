@@ -1,0 +1,38 @@
+# BatVI Progress Checklist
+
+Last updated: 2026-02-13
+
+## Current status
+
+- [x] Repository imported and version-controlled.
+- [x] Core shell/perl scripts present in root directory.
+- [x] Added preflight validator: `preflight_check.sh`.
+- [x] Fixed main entry script argument handling: `call_integrations.sh`.
+- [x] Fixed build script to fail fast on missing source tree: `build.sh`.
+- [x] Corrected README command drift (`gen_paths.sh`, `call_integrations.sh`).
+
+## Blocking items (must complete before pipeline can run)
+
+- [ ] Restore missing source directories:
+  - `BatMis-3.00`
+  - `batindel`
+  - `bin`
+  - `msapipeline`
+  - `test` (optional for sample run, required for documented test flow)
+- [ ] Install runtime dependencies:
+  - `blastn`
+  - `bwa`
+  - `samtools`
+  - `bedtools`
+  - Java runtime (`java -version` must work)
+- [ ] Create/verify `batviconfig.txt`.
+- [ ] Prepare human/pathogen indexes referenced by config.
+- [ ] Prepare processing input directory with `filelist.txt` and FASTQ files.
+
+## Recommended run sequence
+
+1. `bash build.sh`
+2. `bash preflight_check.sh <processing_directory>`
+3. `bash call_integrations.sh <processing_directory> -t <threads>`
+
+If preflight fails, fix each `[FAIL]` item first and rerun.

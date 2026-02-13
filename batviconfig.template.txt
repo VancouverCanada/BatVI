@@ -1,0 +1,23 @@
+# BatVI configuration template (Docker-friendly)
+# Copy to your processing directory as batviconfig.txt and update paths.
+
+# BatMis index base path (expects .pac + .ann.location or .ann.locations)
+INDEX=/data/index/pathogen/HBVall.fa
+
+# BLAST database base paths (expects .nhr/.nin/.nsq)
+PATHOGEN_BLAST_DB=/data/index/pathogen/HBVall.fa
+HG_BLAST_DB=/data/index/human/hg19.fa
+
+# Raw FASTA paths
+HG_GENOME=/data/index/human/hg19.fa
+HG_BWA=/data/index/human/hg19.fa
+PATHOGEN_BWA=/data/index/pathogen/HBVall.fa
+
+# Tool paths (inside Docker image)
+BLAST_PATH=/usr/bin
+BWA_PATH=/usr/bin
+SAMTOOLS_PATH=/usr/bin
+BEDTOOLS_PATH=/usr/bin
+
+# Optional legacy Picard path (not required when picard CLI is available)
+# PICARD_PATH=/usr/share/java

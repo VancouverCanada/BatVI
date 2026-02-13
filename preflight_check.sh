@@ -66,6 +66,22 @@ check_java_runtime() {
   fi
 }
 
+check_picard_samtofastq() {
+  if [[ -n "${PICARD_PATH:-}" ]] && [[ -f "${PICARD_PATH}/SamToFastq.jar" ]]; then
+    pass "Picard SamToFastq available via PICARD_PATH (${PICARD_PATH}/SamToFastq.jar)"
+    return
+  fi
+  if command -v picard >/dev/null 2>&1; then
+    pass "Picard SamToFastq available via picard CLI"
+    return
+  fi
+  if [[ -f "/usr/share/java/picard.jar" ]]; then
+    pass "Picard SamToFastq available via /usr/share/java/picard.jar"
+    return
+  fi
+  fail "Picard SamToFastq is not available (set PICARD_PATH or install picard)"
+}
+
 check_non_empty_var() {
   local var_name="$1"
   local v="${!var_name:-}"
@@ -173,6 +189,7 @@ else
   check_non_empty_var BWA_PATH
   check_non_empty_var SAMTOOLS_PATH
   check_non_empty_var BEDTOOLS_PATH
+  check_picard_samtofastq
 
   if [[ -n "${INDEX:-}" ]]; then
     check_batmis_index "$INDEX"

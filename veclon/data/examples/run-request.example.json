@@ -1,0 +1,14 @@
+{
+  "run_id": "run-0001",
+  "sample_id": "sample-A",
+  "project_id": "project-demo",
+  "engines": ["batvi", "virusbreakend"],
+  "inputs": {
+    "reads_1": "/data/sample-A_R1.fastq.gz",
+    "reads_2": "/data/sample-A_R2.fastq.gz",
+    "reference_bundle": "/refs/hg38_bundle"
+  },
+  "options": {
+    "threads": 8
+  }
+}

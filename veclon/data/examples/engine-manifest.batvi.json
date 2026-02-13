@@ -1,0 +1,10 @@
+{
+  "engine_id": "batvi",
+  "engine_name": "BatVI",
+  "version": "1.03",
+  "license": "GPL-3.0",
+  "command": ["/opt/external/batvi/call_integrations.sh"],
+  "capabilities": ["wgs"],
+  "input_contract": "run-request.schema.json",
+  "output_contract": "canonical-result.schema.json"
+}

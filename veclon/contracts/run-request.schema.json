@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://accentrust.com/veclon/contracts/run-request.schema.json",
+  "title": "RunRequest",
+  "type": "object",
+  "required": ["run_id", "sample_id", "engines", "inputs"],
+  "properties": {
+    "run_id": { "type": "string" },
+    "sample_id": { "type": "string" },
+    "project_id": { "type": "string" },
+    "engines": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "reads_1": { "type": "string" },
+        "reads_2": { "type": "string" },
+        "bam": { "type": "string" },
+        "reference_bundle": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "options": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

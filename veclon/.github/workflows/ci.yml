@@ -1,0 +1,17 @@
+name: veclon-ci
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON schema files are valid JSON
+        run: |
+          for f in contracts/*.json; do
+            jq -e . "$f" >/dev/null
+          done

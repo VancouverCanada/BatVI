@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://accentrust.com/veclon/contracts/canonical-result.schema.json",
+  "title": "CanonicalIntegrationResult",
+  "type": "object",
+  "required": ["run_id", "sample_id", "events"],
+  "properties": {
+    "run_id": { "type": "string" },
+    "sample_id": { "type": "string" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "host", "virus", "support", "confidence"],
+        "properties": {
+          "event_id": { "type": "string" },
+          "host": {
+            "type": "object",
+            "required": ["chrom", "pos", "strand"],
+            "properties": {
+              "chrom": { "type": "string" },
+              "pos": { "type": "integer" },
+              "strand": { "type": "string", "enum": ["+", "-"] }
+            },
+            "additionalProperties": false
+          },
+          "virus": {
+            "type": "object",
+            "required": ["ref", "pos", "strand"],
+            "properties": {
+              "ref": { "type": "string" },
+              "pos": { "type": "integer" },
+              "strand": { "type": "string", "enum": ["+", "-"] }
+            },
+            "additionalProperties": false
+          },
+          "support": {
+            "type": "object",
+            "properties": {
+              "split_reads": { "type": "integer", "minimum": 0 },
+              "discordant_reads": { "type": "integer", "minimum": 0 },
+              "engines": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "additionalProperties": false
+          },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "annotations": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
